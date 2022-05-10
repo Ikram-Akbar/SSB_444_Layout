@@ -1,15 +1,103 @@
 /* Global css  */
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  /* color: white; */
+  text-align: center;
+ 
 }
 
 /* header part  */
-.header_area{
+.header_area {
+  background-color: teal;
+  height: 100px;
+}
+
+/* Hero Section  */
+.hero_section {
+  background-color: rgba(0, 128, 128, 0.486);
+  text-align: center;
+  height: 250px;
+}
+/* about me section  */
+.about_me{
+  /* overflow: hidden; */
+  display: flex;
+}
+.about_me_header{
+    color: black !important;
+}
+.left_side{
+    background-color :teal;
+    height: 350px;
+    width: 50%;
+    margin: 10px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    /* float: left; */
+}
+.right_side{
     background-color: teal;
-    text-decoration: wavy;
-    color: white;
-    text-align: center;
+    height: 350px;
+    width: 50%;
+    margin: 10px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    /* float: right; */
+}
+
+/* Service section start here  */
+
+.service_container{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.service_one{
+    width: 30%;
+    height: 300px;
+    background-color: teal;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    margin: 10px;
+}
+.service_two{
+    width: 30%;
+    height: 300px;
+    background-color: teal;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    margin: 10px;
+}
+.service_three{
+    width: 30%;
+    height: 300px;
+    background-color: teal;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* testimonial section  */
+.testimonial_container{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.test_one, .test_two, .test_three, .test_four, .test_five, .test_six{
+    width: 15%;
+    height: 120px;
+    background-color: teal;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* footer area  */
+
+.footer_container{
+    background-color: teal;
     height: 100px;
 }
