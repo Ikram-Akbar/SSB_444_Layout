@@ -1,0 +1,15 @@
+/* Global css  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part  */
+.header_area{
+    background-color: teal;
+    text-decoration: wavy;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
